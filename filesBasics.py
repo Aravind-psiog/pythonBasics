@@ -1,0 +1,13 @@
+f = open("helloFile.txt", "a")
+f.write("Hello\n")
+f.writelines(["Hello from Aravind. How are you doing"])
+f.close()
+
+f = open("helloFile.txt", "r")
+# print(f.readlines())
+f.seek(4)
+print(f.readline())
+print(f.tell())
+print(f.read())
+# print(f.fileno())
+f.close()
