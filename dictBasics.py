@@ -12,9 +12,9 @@ def dictoperation():
     newDict.update({"temp": 98})
     print(newDict)
     newDict.popitem()
+    del newDict["age"]
     print(newDict)
     newDict.setdefault("remote", "Chennai")
-    print(newDict)
 
     for k, v in newDict.items():
         print(k, v)
@@ -27,4 +27,4 @@ def fromkey():
     print(newDict)
 
 
-fromkey()
+dictoperation()

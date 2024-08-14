@@ -25,14 +25,20 @@ def new():
 def stripeSplit():
     print(myName.strip()+"o")
     array = myName.split()
+    array.reverse()
     print(array)
+    a = ""
+    for l in array:
+        a += l+" "
+    print(a)
     print(array[-3:-1])
     array[3] = "Jeni"
 
 
-stripeSplit()
+general()
 
 print(myName.capitalize()+"o")
+print(myName)
 # print(myName.casefold())
 # print(myName.count("A"))
 # print(myName.encode('utf-8'))
