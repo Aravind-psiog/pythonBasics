@@ -33,9 +33,10 @@ def stripeSplit():
     print(a)
     print(array[-3:-1])
     array[3] = "Jeni"
+    print(array)
 
 
-general()
+new()
 
 print(myName.capitalize()+"o")
 print(myName)
